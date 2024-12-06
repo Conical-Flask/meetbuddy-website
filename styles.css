@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #FF6B6B;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  background-color: #FFD93D;
+  padding: 2rem;
+  color: #333;
+}
+
+.hero h2 {
+  font-size: 2rem;
+}
+
+.hero p {
+  margin: 1rem 0;
+}
+
+.hero .cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #FF6B6B;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.feature-cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #F4F4F4;
+}
+
+.card {
+  flex: 1;
+  margin: 0 1rem;
+  padding: 1rem;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+}
